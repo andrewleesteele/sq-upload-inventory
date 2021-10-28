@@ -6,7 +6,7 @@ import { Client, Environment } from 'square'
 
 const client = new Client({
   environment: Environment.Production,
-  accessToken: "EAAAEE6GGo4OzdE-VXS3CIul-M45HavT-npoUdq49_YiS74U7E7JNm3afAXPeWLs"  //process.env.SQUARE_ACCESS_TOKEN,
+  accessToken: ""  //process.env.SQUARE_ACCESS_TOKEN,
 });
 
 // TODO import via file
