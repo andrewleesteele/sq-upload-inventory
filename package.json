@@ -1,0 +1,19 @@
+{
+  "name": "sq-upload-inventory",
+  "version": "1.0.0",
+  "description": "Upload Inventory",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zero-inv": "./cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "square": "^15.0.0"
+  }
+}
